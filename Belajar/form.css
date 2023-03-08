@@ -1,0 +1,101 @@
+/* Daftar */
+
+/* Style untuk label */
+.nama-pw-email label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+/* Style untuk input text */
+.daftar-form input{
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  
+}
+
+textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	margin-bottom: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Style untuk select option */
+select {
+	height: 40px;
+  width: 100px;
+}
+
+/* Style untuk radio button dan checkbox */
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* Style untuk tombol submit */
+input[type="submit"] {
+	background-color: #2e365c;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #545c86;
+}
+
+/* Style untuk text area */
+textarea {
+	height: 150px;
+	resize: none;
+}
+
+/* Style untuk form */
+.daftar-form form {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #8a92b9;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+.daftar-form{
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  
+}
+/* .radio{
+  display: flex;
+  align-items: center;
+} */
+/* .checkbox{
+  display: flex;
+  align-items: center;
+  
+} */
+
+.daftar-form h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.btn-submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Daftar End */

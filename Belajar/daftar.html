@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Daftar</title>
+</head>
+<div>
+    <nav class="navbar">
+        <a href="index.html" class="logo"><img src="img/logoweb.png" width="200px"><a>
+        <ul>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="destinasi.html">Destinasi</a></li>
+            <li><a href="daftar.html">Daftar</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="daftar-form">
+      
+    <form >
+      <div class="nama-pw-email">
+      <h2>Daftar</h2>
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name"><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br>
+    </div>
+      <label for="select-option">Tahun lahir:</label>
+      <select id="select-option" name="option">
+        <option value="option1">2000</option>
+        <option value="option2">2001</option>
+        <option value="option3">2002</option>
+        <option value="option1">2003</option>
+        <option value="option2">2003</option>
+        <option value="option3">2004</option>
+        <option value="option1">2005</option>
+        <option value="option2">2006</option>
+        <option value="option3">2007</option>
+        <option value="option1">2008</option>
+        <option value="option2">2009</option>
+        <option value="option3">2010</option>
+      </select><br> <br>
+
+      <label for="file">Pilih foto:</label>
+      <input type="file" id="file" name="foto">
+
+      <h4>Apakah data yang anda masukkan sudah benar?</h4> <br>
+      <div class="radio">
+      <label for="yes">Yes</label>
+      <input type="radio" id="yes" name="radio" value="yes">
+      <label for="no">No</label>
+      <input type="radio" id="no" name="radio" value="no"><br>
+    </div>  <br>
+
+      <label for="text-area">Saran untuk Rocket Tour and Travel:</label>
+      <textarea id="text-area" name="pesan"></textarea><br>
+
+      <h4>Anda suka berlibur kemana?</h4>
+      <div class="checkbox">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="true">
+        <label for="vehicle1"> Pantai</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="true">
+        <label for="vehicle2"> Gunung</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="true">
+        <label for="vehicle3"> Air Terjun</label><br>
+        <input type="checkbox" id="vehicle4" name="vehicle4" value="true">
+        <label for="vehicle4"> Hutan</label>
+      
+
+    </div> <br>
+    <div class="btn-submit">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
